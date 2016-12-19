@@ -3,18 +3,18 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.mannaministry.app"
+        id        = "in.kannadachristiansongs.app"
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Manna Ministry</name>
+    <name>Kannada Christian Songs</name>
 
     <description>
-        Daily bread, Manna Ministry, banglore
+        Old and new, we have made biggest collection of the Kannada Spiritual songs. Single website for Karnataka, Listen, Read Lyrics, Communicate and Be blessed.
     </description>
 
-    <author href="http://mannaministry.in/" email="Rajushetty.b@gmail.com">
-        Manna Ministry
+    <author href="http://kannadachristiansongs.in/" email="Rajushetty.b@gmail.com">
+        Raju Shetty
     </author>
 
     <platform name="ios"></platform>
