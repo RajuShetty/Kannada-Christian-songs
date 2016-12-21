@@ -18,66 +18,12 @@
         <script type="text/javascript" src="connection.js"></script>
         <script type="text/javascript" src="init.js"></script>
 
-	<script>
-	$('#help-select').on('change', function (e) {
 
-    var url;
-
-    switch (this.value) {
-
-        case "article":
-            url = "https://cordova.apache.org/docs/en/latest/"
-                        + "reference/cordova-plugin-inappbrowser/index.html";
-            break;
-
-        case "video":
-            url = "https://youtu.be/F-GlVrTaeH0";
-            break;
-
-        case "search":
-            url = "https://www.google.com/#q=inAppBrowser+plugin";
-            break;
-    }
-
-    showHelp(url);
-
-});
-function showHelp(url) {
-
-    var target = "_blank";
-
-    var options = "location=yes,hidden=yes";
-
-    inAppBrowserRef = cordova.InAppBrowser.open(url, target, options);
-
-    inAppBrowserRef.addEventListener('loadstart', loadStartCallBack);
-
-    inAppBrowserRef.addEventListener('loadstop', loadStopCallBack);
-
-    inAppBrowserRef.addEventListener('loaderror', loadErrorCallBack);
-
-}
-function loadStartCallBack() {
-
-    $('#status-message').text("loading please wait ...");
-
-}
-
-	</script> 
     </head>
     <body>
-        <!--div id="online" data-iframe="http://kannadachristiansongs.in/?appp=2">
-            <!-- the iframe is dynamically created here after we check offline/online connection 
-        </div-->
-		
-<select id="help-select">
-    <option value="default">Need help?</option>
-    <option value="article">Show me a helpful article</option>
-    <option value="video">Show me a helpful video</option>
-    <option value="search">Search for other topics</option>
-</select>
-
-
+        <div id="online" data-iframe="http://kannadachristiansongs.in/?appp=2">
+            <!-- the iframe is dynamically created here after we check offline/online connection -->
+        </div>
         <div id="offline-footer">
             <div id="offline-msg">Your internet connection is lost, App functionality is limited.</div>
             <button class="button button-positive" id="go-offline">Offline Mode</button>
