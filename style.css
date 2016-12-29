@@ -12,17 +12,16 @@ body, html {
 #online {
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: relative;
     z-index: 1;
-    overflow: auto;
-    
-    -webkit-overflow-scrolling: touch !important; 
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
 }
 
 #online iframe {
     width: 100%;
     height: 100%;
-	
 }
 
 #offline-footer, #online-footer {
