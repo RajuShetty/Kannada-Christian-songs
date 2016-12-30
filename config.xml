@@ -42,7 +42,7 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.4.0" />
    
     <gap:plugin name="cordova-plugin-network-information" source="npm" spec="1.2.1" />
-    <!--<gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="3.2.2" />-->
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="3.2.2" />
 
     <platform name="ios">
         <gap:plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
@@ -58,10 +58,10 @@
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
 
     <!-- If you are seeing a blank screen on Android on app load, uncomment SplashScreenDelay preference -->
-   <!-- <preference name="SplashScreenDelay" value="10000" /> -->
+   <preference name="SplashScreenDelay" value="10000" /> 
 
     <!-- No need to edit below this line -->
-   <!-- <gap:splash src="splash.png"/>
+    <gap:splash src="splash.png"/>
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
@@ -74,7 +74,7 @@
     <gap:splash src="res/screen/ios/screen-iphone6-portrait.png" gap:platform="ios" width="750" height="1334" />
     <gap:splash src="res/screen/ios/screen-iphone6-landscape.png" gap:platform="ios" width="1334" height="750" />
     <gap:splash src="res/screen/ios/screen-iphone6-plus-portrait.png" gap:platform="ios" width="1242" height="2208" />
-    <gap:splash src="res/screen/ios/screen-iphone6-plus-landscape.png" gap:platform="ios" width="2208" height="1242" />-->
+    <gap:splash src="res/screen/ios/screen-iphone6-plus-landscape.png" gap:platform="ios" width="2208" height="1242" />
 
     <icon src="res/icon/ios/icon-29.png" gap:platform="ios" width="29" height="29" />
     <icon src="res/icon/ios/icon-48.png" gap:platform="ios" width="48" height="48" />
@@ -103,7 +103,7 @@
     <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
     <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 
-  <!--  <gap:splash src="res/screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:qualifier="land-hdpi" />
+   <gap:splash src="res/screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:qualifier="land-hdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi" />
     <gap:splash src="res/screen/android/screen-ldpi-landscape.png" gap:platform="android" gap:qualifier="land-ldpi" />
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi" />
@@ -111,10 +111,10 @@
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:qualifier="land-xhdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
--->
+
     <icon src="icon.png" />
 
-    <content src="http://kannadachristiansongs.in" />
+    <content src="index.html" />
     <access origin="*" subdomains="true" />
     <allow-navigation href="*" /><!-- iOS render iframe content -->
     <!-- https://github.com/phonegap/build/issues/508 -->
