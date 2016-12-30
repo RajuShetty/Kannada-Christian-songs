@@ -4,7 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "in.kannadachristiansongs.app"
-        version   = "1.0.0">
+        version   = "1.0.0"
+		android-versionCode="10000">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Kannada Christian Songs</name>
@@ -49,7 +50,7 @@
     </platform>
     
             <!-- Crosswalk enhances Android performance, but makes the app size larger -->
-   <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="1.8.0" />
+   <!--<gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="1.8.0" />>
 
     <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="false" />
