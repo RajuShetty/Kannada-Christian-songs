@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "in.kannadachristiansongs.app"
-        version   = "1.0.1"
-		android-versionCode="10001">
+        version   = "1.0.2"
+		android-versionCode="10002">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Kannada Christian Songs</name>
@@ -30,7 +30,7 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
-
+	<preference name="loadUrlTimeoutValue" value="700000" />
    
    
     <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1.2.2" />
