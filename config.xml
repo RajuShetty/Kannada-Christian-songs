@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "in.kannadachristiansongs.app"
-        version   = "1.0.2"
-		android-versionCode="10002">
+        version   = "1.0.3"
+		android-versionCode="10003">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Kannada Christian Songs</name>
@@ -19,7 +19,7 @@
     </author>
 
     <platform name="ios"></platform>
-    <platform name="android"></platform>
+    <platform name="android"></platform> 
     <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
 
@@ -43,7 +43,7 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="1.4.0" />
    
     <gap:plugin name="cordova-plugin-network-information" source="npm" spec="1.2.1" />
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="3.2.2" />
+   <!-- <gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="3.2.2" /> -->
 
     <platform name="ios">
         <gap:plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
@@ -62,7 +62,7 @@
    <preference name="SplashScreenDelay" value="10000" /> 
 
     <!-- No need to edit below this line -->
-    <gap:splash src="splash.png"/>
+    <!-- <gap:splash src="splash.png"/> -->
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios" width="640" height="960" />
