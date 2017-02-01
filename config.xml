@@ -50,7 +50,7 @@
     </platform>
     
             <!-- Crosswalk enhances Android performance, but makes the app size larger -->
-   <gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.3.0" />
+   <!--<gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="1.8.0" />-->
 
     <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="false" />
