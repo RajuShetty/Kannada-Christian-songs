@@ -17,7 +17,7 @@ body, html {
     overflow-y: scroll !important;
     overflow-x: hidden !important;
     -webkit-overflow-scrolling: touch !important;
-	background: url("loader.gif") 0px 0px no-repeat; 
+	background: url("audio.svg") 0px 0px no-repeat; 
 	background-position: top;
 }
 
