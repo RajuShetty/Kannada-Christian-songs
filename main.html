@@ -34,8 +34,10 @@
             <button class="button button-positive" id="go-offline">Offline Mode</button>
             <button class="button button-positive" id="close-offline">Close</button>
         </div>
-
+ <div id="deviceready">    </div>
+  <script type="text/javascript"> app.initialize();   </script>
         <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="lib/index.js"></script> 
         <script type="text/javascript">
             jQuery(document).ready( function() {
                 onLoad();
