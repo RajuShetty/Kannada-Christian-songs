@@ -117,8 +117,8 @@
 
     <icon src="icon.png" />
 
-    <content src="index.html" />
-    <access origin="*" subdomains="true" />
+    <content src="index.html" /> 
+    <access origin="*.pushbots.com" subdomains="true" />
     <allow-navigation href="*" /><!-- iOS render iframe content -->
     <!-- https://github.com/phonegap/build/issues/508 -->
     <allow-intent href="tel:*" />
