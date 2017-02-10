@@ -14,10 +14,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 		<!--<link rel="stylesheet" type="text/css" href="lib/jquery.mobile.iscrollview.css">-->
 
-        <script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-
-        <script type="text/javascript" src="connection.js"></script>
-        <script type="text/javascript" src="init.js"></script>
+        
 		<!--<script type="text/javascript" src="lib/iscroll.js"></script>
 		<script type="text/javascript" src="lib/jquery.mobile.iscrollview.js"></script> -->
 		
@@ -25,7 +22,7 @@
 
     </head>
     <body>
-	<div id="deviceready" class="blink"> </div>
+	<div id="deviceready"> </div>
         <div id="online"> 
 		<iframe src="http://kannadachristiansongs.in/?appp=2" width="100" height="100">
             <!-- the iframe is dynamically created here after we check offline/online connection --> </iframe>
@@ -41,6 +38,9 @@
                 onLoad();
             } );
         </script>
+		<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="connection.js"></script>
+        <script type="text/javascript" src="init.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
 		<script type="text/javascript" src="lib/index.js"></script> 
 		<script type="text/javascript"> app.initialize();   </script>
