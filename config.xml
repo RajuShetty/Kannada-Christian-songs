@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "in.kannadachristiansongs.app"
-        version   = "1.0.4"
-		android-versionCode="10004">
+        version   = "1.0.5"
+		android-versionCode="10005">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Kannada Christian Songs</name>
@@ -112,7 +112,7 @@
     <icon src="icon.png" />
 
     <content src="index.html" /> 
-    <access origin="*.pushbots.com" subdomains="true" />
+    <access origin="*" subdomains="true" />
     <allow-navigation href="*" /><!-- iOS render iframe content -->
     <!-- https://github.com/phonegap/build/issues/508 -->
     <allow-intent href="tel:*" />
