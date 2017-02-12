@@ -23,7 +23,7 @@
     </head>
     <body>
 	<div id="deviceready"> </div>
-        <div id="online"> 
+   <div id="online"> 
 		<iframe src="http://kannadachristiansongs.in/?appp=2" width="100" height="100">
             <!-- the iframe is dynamically created here after we check offline/online connection --> </iframe>
         </div>
@@ -34,25 +34,20 @@
         </div>
          
 		
-		<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="connection.js"></script>
-        <script type="text/javascript" src="init.js"></script>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="OneSignal.js"></script>
+		
+        
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
+		<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="connection.js"></script>
+        <script type="text/javascript" src="init.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
         <br>
         <br>
         <h1>OneSignal Example</h1>
-        <form>
-            <input type="button" value="Send Tag" onclick="sendTag()" />
-            <br>
-            <input type="button" value="Get Ids" onclick="getIds()" />
-        </form>
-        <p id="OneSignalUserId"> </p>
-<p style="word-break: break-all;" id="OneSignalPushToken"> </p>
+     
 
 	
     </body>
