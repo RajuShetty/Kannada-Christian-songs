@@ -1574,7 +1574,7 @@ span[data-chord]:before {
     content     : attr(data-chord);
     width       : 0;    
    
-	color:blue;
+	color: rgb(49, 149, 193);
 }
 .highlight .lre {
 	line-height : 1.5em;
