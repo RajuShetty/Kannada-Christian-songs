@@ -398,7 +398,7 @@ span {
 .highlight {
     padding: 16px;
     margin: 16px 0;
-    border-left: 3px solid #62a8ea;
+    border-left: 3px solid rgb(64,196,255);
 }
 .highlight p {
 	font-size: 19px;
@@ -1574,7 +1574,7 @@ span[data-chord]:before {
     content     : attr(data-chord);
     width       : 0;    
    
-	color: rgb(49, 149, 193);
+	color: rgb(64,196,255);
 }
 .highlight .lre {
 	line-height : 1.5em;
