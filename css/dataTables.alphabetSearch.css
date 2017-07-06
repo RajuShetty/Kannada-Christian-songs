@@ -91,12 +91,12 @@ tr.alphabet-group, tr.alphabet-group:hover {
 
 div.dataTables_filter input {
   
-   width: 95%;
+   width: 80%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;  
     background-color: white;
-    padding: 7px 20px 7px 40px;
+    padding: 7px 20px 7px 10px;
     color:#ccc;
   
 }
@@ -107,7 +107,7 @@ div.dataTables_filter input {
 .alphabet-container {
    float: left;
    width: 13%;   
-   height: 800px;
+   height: 650px;
    overflow: scroll;
   
 }

@@ -20,20 +20,7 @@
 	<link rel="stylesheet" href="../css/progres-bar.css">
 	<link rel="stylesheet" href="../css/floatbtn.css">
   </head>
-	<script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-            if (target.length) {
-				$('html,body').animate({
-				  scrollTop: target.offset().top
-				}, 1000);
-				return false;
-            }
-        });
-    });
-	</script>
+	
   <body>
     <div class="animsition">
      
@@ -42,7 +29,7 @@
         <header class="mdl-layout__header mdl-shadow--1dp bg-white">
           <div class="mdl-layout__header-row">
             <!-- Title -->
-            <div class="mdl-layout-title">Kannada Songs Lyrics</div>
+            <div class="mdl-layout-title">Lyrics and Chords</div>
             <!-- Spacer -->
             <div class="mdl-layout-spacer"></div>
             <!-- Right Menu -->
