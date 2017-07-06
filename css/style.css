@@ -1579,4 +1579,9 @@ span[data-chord]:before {
 .highlight .lre {
 	line-height : 1.5em;
 }
-
+.spn{
+	font-size: 16px;
+	color: #76838f;
+	padding-top: 7px;
+	
+}
