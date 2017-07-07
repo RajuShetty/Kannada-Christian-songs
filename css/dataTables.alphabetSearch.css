@@ -107,7 +107,7 @@ div.dataTables_filter input {
 .alphabet-container {
    float: left;
    width: 13%;   
-   height: 650px;
+   height: 100vh;
    overflow: scroll;
   
 }
