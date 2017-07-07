@@ -402,7 +402,7 @@ span {
 }
 .highlight p {
 	font-size: 19px;
-	line-height: 3.5;
+	line-height: 1.5;
 }
 h1.page-title {
 	margin: 0;
@@ -494,7 +494,7 @@ header .mdl-textfield {
 	margin-right: 8px;
 }
 .page-header {
-	padding: 32px;
+	padding: 0px 0px 0px 20px;
     margin: 0;
 }
 .page-header .breadcrumb {
