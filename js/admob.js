@@ -37,13 +37,13 @@ function initApp() {
   // this will load a full screen ad on startup
   AdMob.prepareInterstitial({
     adId: admobid.interstitial,
-    isTesting: true, // TODO: remove this line when release
+   // isTesting: true, // TODO: remove this line when release
     autoShow: true
   });
   
   prepareRewardVideoAd({
 	  adId: admobid.rewardvideo, 
-    isTesting: true, // TODO: remove this line when release
+   // isTesting: true, // TODO: remove this line when release
     autoShow: true });
 }
 

@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "in.kannadachristiansongs.app"
-        version   = "1.0.5"
-		android-versionCode="10005">
+        version   = "1.0.6"
+		android-versionCode="10006">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
     <name>Kannada Christian Songs</name>
@@ -21,7 +21,7 @@
     <platform name="ios"></platform>
     <platform name="android"></platform> 
     <preference name="phonegap-version" value="cli-6.5.0" />
-    <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
+    <preference name="android-minSdkVersion" value="19" /><!-- Android 4.0 is minimum supported -->
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
