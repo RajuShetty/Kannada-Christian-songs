@@ -1565,15 +1565,6 @@ td .mdl-checkbox__ripple-container {
 }
 }
 
-span[data-chord]:before {
-    position    : relative;
-    top         : -1.3em;
-    display     : inline-block;
-    content     : attr(data-chord);
-    width       : 0;    
-   
-	color:blue;
-}
 .highlight .lre {
 	line-height : 1.5em;
 }
