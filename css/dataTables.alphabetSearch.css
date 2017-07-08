@@ -51,7 +51,7 @@ div.alphabet a:active {
 } 
 
 div.alphabet a.empty {
-	color:#888 !important;
+	color:#b3b2b2 !important;
 }
 
 div.alphabet a.active,
