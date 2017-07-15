@@ -1,0 +1,16 @@
+
+div.song > p {line-height:3em;margin:15px 0px 15px 0px;}
+span.chord {
+	position    : relative;
+    top         : -1.3em;
+    display     : inline-block;
+    content     : attr(data-chord);
+    width       : 0;    
+	
+   
+	color: rgb(64,196,255);
+	}
+	
+span.chord-inline {font-weight:bold;text-decoration:underline;}
+div.transposition a.transposition {margin:5px;}
+div.song div.transposition {margin-bottom:20px;}
