@@ -3,27 +3,27 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "in.kannadachristiansongs.app"
-        version   = "1.0.9"
-		android-versionCode="10009">
+        id        = "christiansongskn.app"
+        version   = "1"
+		android-versionCode="10001">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>Kannada Christian Songs</name>
+    <name>ಕ್ರೈಸ್ತ ಆರಾಧನೆ ಹಾಡುಗಳು</name>
 
     <description>
-        Old and new, we have made biggest collection of the Kannada Spiritual songs. Single website for Karnataka, Listen, Read Lyrics, Communicate and Be blessed.
+        Old and new, we have made biggest collection of the Kannada worship and praise songs. Listen, Read Lyrics, Communicate and Be blessed.
     </description>
 
     <author href="http://kannadachristiansongs.in/" email="Rajushetty.b@gmail.com">
         Raju Shetty
     </author>
 
-    <platform name="ios"></platform>
+   
     <platform name="android"></platform> 
 	<!-- one signal push -->
-	<gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
+	<gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />
 <!-- Requires cli-6.4.0 but we recommend using the latest version. -->
-<preference name="phonegap-version" value="cli-7.0.1" />
+<preference name="phonegap-version" value="cli-8.0.0" />
 	<!-- one signal push End -->
    
     <preference name="android-minSdkVersion" value="19" /><!-- Android 4.4 is minimum supported -->
@@ -80,27 +80,7 @@
     <gap:splash src="res/screen/ios/screen-iphone6-plus-portrait.png" gap:platform="ios" width="1242" height="2208" />
     <gap:splash src="res/screen/ios/screen-iphone6-plus-landscape.png" gap:platform="ios" width="2208" height="1242" /> -->
 
-    <icon src="res/icon/ios/icon-29.png" gap:platform="ios" width="29" height="29" />
-    <icon src="res/icon/ios/icon-48.png" gap:platform="ios" width="48" height="48" />
-    <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
-    <icon src="res/icon/ios/icon-58.png" gap:platform="ios" width="58" height="58" />
-    <icon src="res/icon/ios/icon-64.png" gap:platform="ios" width="64" height="64" />
-    <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-    <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
-    <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
-    <icon src="res/icon/ios/icon-320.png" gap:platform="ios" width="320" height="320" />
-
-    <!-- iPhone 6 / 6+ -->
-    <icon src="res/icon/ios/icon-87.png" gap:platform="ios" width="87" height="87" />
-    <icon src="res/icon/ios/icon-60@3x.png" gap:platform="ios" width="180" height="180" />
-
-    <!-- iPhone / iPod Touch  -->
-    <icon src="res/icon/ios/icon-60.png" gap:platform="ios" width="60" height="60" />
-    <icon src="res/icon/ios/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
-
-    <!-- iPad -->
-    <icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
-    <icon src="res/icon/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+   
 
     <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
@@ -129,9 +109,6 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+   
 
 </widget>

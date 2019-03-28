@@ -222,7 +222,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 }
 .border {
-	border: 1px solid rgb(64,196,255);
+	border: 1px solid rgb(203,50,102);
 }
 .no-border {
 	border: none !important;
@@ -333,10 +333,10 @@ header {
 	background-color: #62a8ea;
 }
 .light-blue {
-	color: rgb(64,196,255);
+	color: rgb(203,50,102);
 }
 .bg-light-blue {
-	background-color: rgb(64,196,255);
+	background-color: rgb(203,50,102);
 }
 .teal {
 	color: #4DB6AC;
@@ -520,7 +520,7 @@ header .mdl-textfield {
 	width: 15px;
 }
 .swiper-pagination-bullet-active {
-	background: rgb(64,196,255);
+	background: rgb(203,50,102);
 	height: 20px;
 	width: 20px;
 }
