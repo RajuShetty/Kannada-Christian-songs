@@ -102,7 +102,7 @@
     <icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
     <icon src="res/icon/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
 
-   
+    <icon src="icon.png" />
   <platform name="android">
     <icon src="res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="res/icon/android/drawable-mdpi-icon.png" density="mdpi"/>
@@ -128,7 +128,7 @@
     <gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:qualifier="land-xhdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" /> -->
 
-    <icon src="icon.png" />
+   
 
     <content src="index.html" /> 
     <access origin="*" subdomains="true" />
