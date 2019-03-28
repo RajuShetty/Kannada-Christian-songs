@@ -110,10 +110,6 @@
     <icon src="res/icon/android/drawable-xhdpi-icon.png" density="xhdpi"/>
     <icon src="res/icon/android/drawable-xxhdpi-icon.png" density="xxhdpi"/>
     <icon src="res/icon/android/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
-    <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
     
   </platform>
 
